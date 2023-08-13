@@ -1,0 +1,6 @@
+body
+{
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+}
