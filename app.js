@@ -10,7 +10,7 @@ function CalculateProfitAndLoss(costPrice, sellingPrice, quantityVal)
         var profit = (sellingPrice - costPrice)
         var profitPercentage = (profit/costPrice)*100
         output.innerHTML =`Yay!! Your Profit is ${(profit*quantityVal).toFixed(2)} and profit Percentage is ${profitPercentage.toFixed(2)}%`
-        output.style.color='green'
+        output.style.color='darkgreen'
         
     }else if(costPrice > sellingPrice)
     {
@@ -23,6 +23,7 @@ function CalculateProfitAndLoss(costPrice, sellingPrice, quantityVal)
     else
     {
         output.innerHTML=`No pain No gain, and no gain no pain`;
+        output.style.color = 'black'
     }
 }
 
