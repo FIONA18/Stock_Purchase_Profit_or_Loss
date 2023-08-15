@@ -15,7 +15,6 @@ body
 h1{
     font-size: xx-large;
     color: white;
-   
     padding: 1rem;
   
 }
@@ -51,6 +50,7 @@ header
 {
     background-color: var(--primary-color);
     color: white;
+    font-family: inherit;
 }
 .footer
 {
